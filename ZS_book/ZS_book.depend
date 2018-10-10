@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1537621497 source:f:\课程\study_c\模板\zs\zs_book\class1.cpp
+	"Class1.h"
+
+1537621507 f:\课程\study_c\模板\zs\zs_book\class1.h
+	<stack>
+	<vector>
+	<deque>
+	<stdio.h>
+
+1537968043 source:f:\课程\study_c\模板\zs\zs_book\main.cpp
+	<iostream>
+	"Class1.h"
+	<random>
+	<stack>
+	"Help.h"
+	"Class2.h"
+	<queue>
+	"Class4.h"
+
+1537623242 source:f:\课程\study_c\模板\zs\zs_book\help.cpp
+	"Help.h"
+
+1537967881 f:\课程\study_c\模板\zs\zs_book\help.h
+	<vector>
+	<stack>
+	<string>
+	<cmath>
+	<iostream>
+	"Class2.h"
+	<algorithm>
+
+1537628795 source:f:\课程\study_c\模板\zs\zs_book\class2.cpp
+	"Class2.h"
+
+1537628564 f:\课程\study_c\模板\zs\zs_book\class2.h
+	<stack>
+	<vector>
+	<deque>
+	<stdio.h>
+	<iostream>
+	<cmath>
+
+1537967845 f:\课程\study_c\模板\zs\zs_book\class4.h
+	<stack>
+	<vector>
+	<deque>
+	<stdio.h>
+	<iostream>
+	<cmath>
+
+1537967834 source:f:\课程\study_c\模板\zs\zs_book\class4.cpp
+	"Class4.h"
+
