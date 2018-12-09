@@ -31,3 +31,35 @@
 1544323837 source:f:\¿Î³Ì\study_c\Ä£°å\zs\advanced\advanced\my_class2.cpp
 	"My_Class2.h"
 
+1544330823 source:e:\coding\zcy_book\advanced\help.cpp
+	"Help.h"
+
+1544328035 e:\coding\zcy_book\advanced\help.h
+	<vector>
+	<math.h>
+	<iostream>
+
+1544328035 source:e:\coding\zcy_book\advanced\my_class1.cpp
+	"My_Class1.h"
+
+1544328035 e:\coding\zcy_book\advanced\my_class1.h
+	<string>
+	<iostream>
+	<vector>
+
+1544333376 source:e:\coding\zcy_book\advanced\my_class2.cpp
+	"My_Class2.h"
+
+1544332261 e:\coding\zcy_book\advanced\my_class2.h
+	<vector>
+	<string>
+	<queue>
+	<stack>
+
+1544333209 source:e:\coding\zcy_book\advanced\main.cpp
+	<iostream>
+	<string>
+	"My_Class1.h"
+	"My_Class2.h"
+	"Help.h"
+

@@ -24,10 +24,19 @@ public:
 class get_Num
 {
 public:
-    int get_sub_MIN_MAX_Num(vector<int> num); // 最大值减去最小值小于或等于num的子数组数量
+    int get_sub_MIN_MAX_Num(vector<int> num,int delta); // 最大值减去最小值小于或等于delta的子数组数量 时间复杂度O(N)
+    int get_sub_MIN_MAX_Num1(vector<int> num,int delta);// 最大值减去最小值小于或等于delta的子数组数量 时间复杂度O(N^3)
+private:
+    bool  isValid(vector<int> num,int L,int R,int delta);
 };
 
-
+class get_Area
+{
+public:
+    int get_sub_MAX_Area(vector<vector<int> > area);  // 获取最大子矩阵的大小
+private:
+    int get_MAX_Area(vector<int> num);
+};
 
 
 
@@ -63,6 +72,35 @@ public:
 //    return 0;
 //}
 
+
+
+//int main()
+//{
+//    get_Num zgl;
+//    generate_Vector data;
+//    bool flag=true;
+//    for(int j=0;j<2;j++)
+//    {
+//        vector<int>  num=data.generate_Random_Vector(6,3,10);
+//        int delta=3;
+//        int res=zgl.get_sub_MIN_MAX_Num(num,delta);
+//        int res1=zgl.get_sub_MIN_MAX_Num1(num,delta);
+//        if(res!=res1)
+//        {
+//            cout<<"error"<<endl;
+//            flag=false;
+//            break;
+//        }else
+//        {
+//            cout<<"delta :"<<delta<<"  res:"<<res<<endl;
+//        }
+//    }
+//    if(flag)
+//    {
+//        cout<<"ok"<<endl;
+//    }
+//    return 0;
+//}
 
 
 #endif // MY_CLASS2_H_INCLUDED

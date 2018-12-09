@@ -11,28 +11,25 @@ using namespace std;
 
 int main()
 {
-    MAX_WINDOW zgl;
-    MIN_WINDOW zgl1;
+    get_Area zgl;
     generate_Vector data;
-
-    for(int j=0;j<10;j++)
+    bool flag=true;
+    for(int j=0;j<5;j++)
     {
-        vector<int>  nums=data.generate_Random_Vector(10,3,10);
-        int w=3;
-        vector<int>  res=zgl.get_MAX_Window(nums,w); //生成窗口最大值数组
-        vector<int>  res1=zgl1.get_Min_Window(nums,w); // 生成窗口最小值数组
-        for(int i=0;i<res.size();i++)
+        vector<vector<int> > area;
+        for(int i=0;i<8;i++)
         {
-            cout<<res[i]<<"  ";
+           vector<int>  num=data.generate_Random_Vector(10,0,2);
+           area.push_back(num);
         }
-        cout<<endl;
-        for(int i=0;i<res1.size();i++)
-        {
-            cout<<res1[i]<<"  ";
-        }
-        cout<<endl;
-        cout<<"-------------------------------"<<endl;
-    }
 
+
+        int res=zgl.get_sub_MAX_Area(area);
+        cout<<res<<endl;
+    }
+    if(flag)
+    {
+        cout<<"ok"<<endl;
+    }
     return 0;
 }
