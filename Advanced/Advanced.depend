@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1544323460 source:f:\课程\study_c\模板\zs\advanced\advanced\main.cpp
+	<iostream>
+	<string>
+	"My_Class1.h"
+	"My_Class2.h"
+	"Help.h"
+
+1544322171 f:\课程\study_c\模板\zs\advanced\advanced\my_class1.h
+	<string>
+	<iostream>
+	<vector>
+
+1544019311 source:f:\课程\study_c\模板\zs\advanced\advanced\my_class1.cpp
+	"My_Class1.h"
+
+1544323358 source:f:\课程\study_c\模板\zs\advanced\advanced\help.cpp
+	"Help.h"
+
+1544323100 f:\课程\study_c\模板\zs\advanced\advanced\help.h
+	<vector>
+	<math.h>
+	<iostream>
+
+1544321617 f:\课程\study_c\模板\zs\advanced\advanced\my_class2.h
+	<vector>
+	<string>
+	<queue>
+	<stack>
+
+1544323837 source:f:\课程\study_c\模板\zs\advanced\advanced\my_class2.cpp
+	"My_Class2.h"
+
