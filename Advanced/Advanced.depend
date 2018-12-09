@@ -63,3 +63,44 @@
 	"My_Class2.h"
 	"Help.h"
 
+1544323358 source:c:\users\zgl_csu\documents\github\zcy_book\advanced\help.cpp
+	"Help.h"
+
+1544323100 c:\users\zgl_csu\documents\github\zcy_book\advanced\help.h
+	<vector>
+	<math.h>
+	<iostream>
+
+1544361982 source:c:\users\zgl_csu\documents\github\zcy_book\advanced\main.cpp
+	<iostream>
+	<string>
+	"My_Class1.h"
+	"My_Class2.h"
+	"Help.h"
+	"My_Class3.h"
+
+1544322171 c:\users\zgl_csu\documents\github\zcy_book\advanced\my_class1.h
+	<string>
+	<iostream>
+	<vector>
+
+1544361039 c:\users\zgl_csu\documents\github\zcy_book\advanced\my_class2.h
+	<vector>
+	<string>
+	<queue>
+	<stack>
+
+1544019311 source:c:\users\zgl_csu\documents\github\zcy_book\advanced\my_class1.cpp
+	"My_Class1.h"
+
+1544361817 source:c:\users\zgl_csu\documents\github\zcy_book\advanced\my_class2.cpp
+	"My_Class2.h"
+
+1544361492 c:\users\zgl_csu\documents\github\zcy_book\advanced\my_class3.h
+	<iostream>
+	<vector>
+	<string>
+
+1544361883 source:c:\users\zgl_csu\documents\github\zcy_book\advanced\my_class3.cpp
+	"My_Class3.h"
+

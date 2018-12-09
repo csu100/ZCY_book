@@ -90,12 +90,13 @@ int get_Num::get_sub_MIN_MAX_Num(vector<int> num,int delta)
     if(num.size()<1 || delta<0) return 0;
     if(num.size()==1) return 1;
     int res=0;
+    int len=num.size();
     deque<int> MIN;
     deque<int> MAX;
     int R=0;
-    for(int L=0;L<num.size();L++)
+    for(int L=0;L<len;L++)
     {
-        while(R<num.size())
+        while(R<len)
         {
             while(!MIN.empty() && num[MIN.back()]>=num[R])
             {

@@ -38,6 +38,8 @@
 		<Unit filename="My_Class1.h" />
 		<Unit filename="My_Class2.cpp" />
 		<Unit filename="My_Class2.h" />
+		<Unit filename="My_Class3.cpp" />
+		<Unit filename="My_Class3.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
